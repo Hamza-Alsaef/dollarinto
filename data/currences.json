@@ -1,0 +1,128 @@
+[
+  {
+    "name": "US Dollar",
+    "buy": "89400",
+    "change": "0.00%",
+    "sell": "89700",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/usd.png"
+  },
+  {
+    "name": "Euro",
+    "buy": "99835",
+    "change": "0.01%",
+    "sell": "100175",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/eur.png"
+  },
+  {
+    "name": "Turkish Lira",
+    "buy": "2626",
+    "change": "0.19%",
+    "sell": "2636",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/try.png"
+  },
+  {
+    "name": "Egyptian Pound",
+    "buy": "1834",
+    "change": "0.16%",
+    "sell": "1842",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/egp.png"
+  },
+  {
+    "name": "Saudi Riyal",
+    "buy": "23914",
+    "change": "0.20%",
+    "sell": "23997",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/sar.png"
+  },
+  {
+    "name": "Jordanian Dinar",
+    "buy": "126682",
+    "change": "0.27%",
+    "sell": "127115",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/jod.png"
+  },
+  {
+    "name": "Emirate Dirham",
+    "buy": "24348",
+    "change": "0.01%",
+    "sell": "24433",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/aed.png"
+  },
+  {
+    "name": "British Pound",
+    "buy": "118211",
+    "change": "0.22%",
+    "sell": "118618",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/gbp.png"
+  },
+  {
+    "name": "Libyan Dinar",
+    "buy": "18838",
+    "change": "0.33%",
+    "sell": "18906",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/lyd.png"
+  },
+  {
+    "name": "Kuwaiti Dinar",
+    "buy": "293436",
+    "change": "0.33%",
+    "sell": "294446",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/kwd.png"
+  },
+  {
+    "name": "British Pound",
+    "buy": "118211",
+    "change": "0.22%",
+    "sell": "118618",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/gbp.png"
+  },
+  {
+    "name": "Qatari Riyal",
+    "buy": "24624",
+    "change": "0.33%",
+    "sell": "24710",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/qar.png"
+  },
+  {
+    "name": "Bahraini Dinar",
+    "buy": "238482",
+    "change": "0.26%",
+    "sell": "239302",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/bhd.png"
+  },
+  {
+    "name": "Swedish Krona",
+    "buy": "8762",
+    "change": "0.01%",
+    "sell": "8795",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/sek.png"
+  },
+  {
+    "name": "Canadian Dollar",
+    "buy": "66377",
+    "change": "0.04%",
+    "sell": "66608",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/cad.png"
+  },
+  {
+    "name": "Omani Riyal",
+    "buy": "233895",
+    "change": "0.25%",
+    "sell": "234700",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/omr.png"
+  },
+  {
+    "name": "Norwegian Krone",
+    "buy": "8493",
+    "change": "0.08%",
+    "sell": "8525",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/nok.png"
+  },
+  {
+    "name": "Danish Krone",
+    "buy": "13378",
+    "change": "0.02%",
+    "sell": "13426",
+    "flagUrl": "https://lbp.sp-today.com/images/flags/dkk.png"
+  }
+]
