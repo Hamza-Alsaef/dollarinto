@@ -15,6 +15,10 @@ const getData = async () => {
     console.log(err);
   }
 };
+if (fs.existsSync("./data")) {
+  app.use("/data", express.static(path.join(__dirname, "data")));
+}
+console.log(path.join(__dirname, "data"));
 getData().then(() =>
   app.listen(3000, () => {
     console.log("listening");
@@ -24,5 +28,3 @@ getData().then(() =>
 setInterval(() => {
   getData();
 }, 30 * 60 * 1000);
-
-app.use("/static", express.static(path.join(__dirname, "data")));
