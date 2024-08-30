@@ -6,8 +6,7 @@ module.exports.getGold = async () => {
   try {
     const url = "https://lbp.sp-today.com/en/gold";
     const browser = await puppeteer.launch({
-      headless: false,
-      args: ["--no-sandbox"],
+      args: ["--no-sandbox", "--disabled-setupid-sandbox"],
     });
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: "networkidle2" });
