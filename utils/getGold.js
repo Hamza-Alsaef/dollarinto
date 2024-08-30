@@ -5,7 +5,10 @@ const fs = require("fs");
 module.exports.getGold = async () => {
   try {
     const url = "https://lbp.sp-today.com/en/gold";
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      headless: false,
+      args: ["--no-sandbox"],
+    });
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: "networkidle2" });
     const content = await page.content();

@@ -5,7 +5,10 @@ const fs = require("fs");
 module.exports.getRelatied = async () => {
   try {
     const url = "https://lbp.sp-today.com/";
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      headless: false,
+      args: ["--no-sandbox"],
+    });
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: "networkidle2" });
     const content = await page.content();

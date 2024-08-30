@@ -5,7 +5,10 @@ const fs = require("fs");
 module.exports.getFuel = async () => {
   try {
     const url = "https://lbp.sp-today.com/en/fuel";
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+      headless: false,
+      args: ["--no-sandbox"],
+    });
     const page = await browser.newPage();
     await page.goto(url, { waitUntil: "networkidle2" });
     const content = await page.content();
