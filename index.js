@@ -15,14 +15,14 @@ const getData = async () => {
     console.log(err);
   }
 };
-getData();
+getData().then(() =>
+  app.listen(3000, () => {
+    console.log("listening");
+  })
+);
 
 setInterval(() => {
   getData();
 }, 30 * 60 * 1000);
 
 app.use("/static", express.static(path.join(__dirname, "data")));
-
-app.listen(3000, () => {
-  console.log("listening");
-});
